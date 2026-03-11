@@ -7,7 +7,7 @@ window.baixarPassageira = function () {
 };
 
 window.baixarMotorista = function () {
-    window.location.href = "kiva Motoristas.apk";
+    window.location.href = "https://www.dropbox.com/scl/fi/lzjafntg9dgmlj2psdck1/Kiva-Motoristas.apk?rlkey=ykdph2gsvp1outnf3n7g25td5&st=osbsvs6n&dl=1";
 };
 
 

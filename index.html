@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Kiva Drive | Mobilidade segura</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<div class="logo">
+<img src="logo.png">
+Kiva Drive
+</div>
+
+<ul class="menu">
+<li><a href="#inicio">Início</a></li>
+<li><a href="#confianca">Confiança</a></li>
+<li><a href="#seguranca">Segurança</a></li>
+<li><a href="#como">Como funciona</a></li>
+<li><a href="#apps">Apps</a></li>
+<li><a href="#mapa">Mapa</a></li>
+</ul>
+
+</nav>
+
+<section id="inicio" class="hero">
+
+<div class="hero-text reveal">
+
+<h1>Mobilidade segura pensada para mulheres</h1>
+
+<p>
+A Kiva Drive conecta passageiras e motoristas com tecnologia
+para oferecer corridas mais seguras, rápidas e confiáveis.
+</p>
+
+<div class="hero-buttons">
+
+<button onclick="baixarPassageira()">App Passageira</button>
+
+<button class="secondary" onclick="baixarMotorista()">
+App Motorista
+</button>
+
+</div>
+
+</div>
+
+>
+
+</section>
+
+<section id="confianca" class="trust">
+
+<h2 class="reveal">Por que confiar na Kiva Drive</h2>
+
+<div class="trust-grid">
+
+<div class="trust-card reveal">
+<h3>🔐 Tecnologia de segurança</h3>
+<p>Corridas monitoradas em tempo real.</p>
+</div>
+
+<div class="trust-card reveal">
+<h3>👩‍🦰 Foco nas mulheres</h3>
+<p>Plataforma criada para oferecer mais tranquilidade.</p>
+</div>
+
+<div class="trust-card reveal">
+<h3>🚗 Motoristas verificadas</h3>
+<p>Todos passam por processo de verificação.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="seguranca" class="security">
+
+<h2>Segurança em cada corrida</h2>
+
+<div class="security-content reveal">
+
+<p>
+Na Kiva Drive cada corrida é acompanhada por tecnologia
+de rastreamento, avaliações e suporte dedicado.
+</p>
+
+<ul>
+
+<li>✔ Verificação de motoristas</li>
+<li>✔ Rastreamento em tempo real</li>
+<li>✔ Avaliação após cada corrida</li>
+<li>✔ Suporte em caso de emergência</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<section class="safety">
+
+<h2>Segurança para passageiras</h2>
+
+<div class="safety-grid">
+
+<div class="safety-card">
+<h3>📋 Motoristas verificadas</h3>
+<p>Todos os motoristas passam por verificação de documentos.</p>
+</div>
+
+<div class="safety-card">
+<h3>📍 Rastreamento em tempo real</h3>
+<p>Acompanhe toda a corrida diretamente no aplicativo.</p>
+</div>
+
+<div class="safety-card">
+<h3>🚨 Botão de emergência</h3>
+<p>Tenha acesso rápido ao suporte caso necessário.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="como" class="how">
+
+<h2>Como funciona</h2>
+
+<div class="steps">
+
+<div>
+<h3>1️⃣ Baixe o aplicativo</h3>
+<p>Instale o app da Kiva Drive no seu celular.</p>
+</div>
+
+<div>
+<h3>2️⃣ Solicite uma corrida</h3>
+<p>Escolha seu destino e encontre um motorista próximo.</p>
+</div>
+
+<div>
+<h3>3️⃣ Acompanhe pelo mapa</h3>
+<p>Veja o motorista chegando em tempo real.</p>
+</div>
+
+<div>
+<h3>4️⃣ Chegue com segurança</h3>
+<p>Avalie sua corrida ao final.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="apps" class="apps">
+
+<h2 class="reveal">Conheça os aplicativos</h2>
+
+<div class="mockups">
+
+<img class="reveal" src="./motorista.jpg">
+
+<img class="reveal" src="./passageira.jpg">
+
+
+
+</div>
+
+</section>
+
+
+<section id="mapa" class="mapa">
+
+<h2>Corridas acontecendo agora</h2>
+
+<div id="map"></div>
+
+</section>
+
+<section class="support">
+
+<h2>Suporte e atendimento</h2>
+
+<p>
+Nossa equipe está preparada para ajudar sempre que necessário.
+Em caso de dúvidas ou suporte, entre em contato com nossa equipe.
+</p>
+
+<p>Email: KivaDriveOficial@Outlook.com</p>
+
+</section>
+
+<section class="privacy">
+
+<h2>Privacidade e proteção de dados</h2>
+
+<p>
+A Kiva Drive respeita a privacidade de todos os usuários.
+Seus dados são protegidos e utilizados apenas para garantir
+a melhor experiência dentro da plataforma.
+</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Kiva Drive</p>
+
+</footer>
+
+<a href="https://wa.me/5562982402207?text=Olá%20gostaria%20de%20saber%20mais%20sobre%20a%20Kiva%20Drive"
+class="whatsapp-button"
+target="_blank">
+
+<img src="https://cdn-icons-png.flaticon.com/512/733/733585.png">
+
+<span>Fale conosco</span>
+
+</a>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>

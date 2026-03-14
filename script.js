@@ -3,11 +3,11 @@ document.addEventListener("DOMContentLoaded", function () {
 /* BOTÕES DE DOWNLOAD */
 
 window.baixarPassageira = function () {
-    alert("Aqui você colocará o link do APK da Passageira");
+    alert("https://www.dropbox.com/scl/fi/75ona2vur50naamhwzf9q/Kiva-Drive.apk?rlkey=tz4k421np4172fjhzv0uidy9q&st=sh1kus3c&dl=1");
 };
 
 window.baixarMotorista = function () {
-    window.location.href = "https://www.dropbox.com/scl/fi/lzjafntg9dgmlj2psdck1/Kiva-Motoristas.apk?rlkey=ykdph2gsvp1outnf3n7g25td5&st=osbsvs6n&dl=1";
+    window.location.href = "https://www.dropbox.com/scl/fi/hvtehfhtufsm35v5wca66/Kiva-Motoristas.apk?rlkey=6wvo8mto2ry87kgafg77efaui&st=fmvksf41&dl=1";
 };
 
 

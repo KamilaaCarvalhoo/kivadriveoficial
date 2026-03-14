@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 /* BOTÕES DE DOWNLOAD */
 
 window.baixarPassageira = function () {
-    window.location.href = "https://www.dropbox.com/scl/fi/75ona2vur50naamhwzf9q/Kiva-Drive.apk?rlkey=tz4k421np4172fjhzv0uidy9q&st=sknbkb8m&dl=1";
+    alert("O aplicativo para passageiras da Kiva Drive será liberado em breve!");
 };
 
 window.baixarMotorista = function () {

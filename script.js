@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 /* BOTÕES DE DOWNLOAD */
 
-window.baixarPassageira = function () {
-    alert("https://www.dropbox.com/scl/fi/75ona2vur50naamhwzf9q/Kiva-Drive.apk?rlkey=tz4k421np4172fjhzv0uidy9q&st=sh1kus3c&dl=1");
+window.baixarMotorista = function () {
+    window.location.href = "https://www.dropbox.com/scl/fi/75ona2vur50naamhwzf9q/Kiva-Drive.apk?rlkey=tz4k421np4172fjhzv0uidy9q&st=sknbkb8m&dl=1";
 };
 
 window.baixarMotorista = function () {

@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 /* BOTÕES DE DOWNLOAD */
 
 window.baixarPassageira = function () {
-    alert("O aplicativo para passageiras da Kiva Drive será liberado em breve!");
+    alert("🚧 O aplicativo para passageiras será liberado em breve!");
 };
 
 window.baixarMotorista = function () {

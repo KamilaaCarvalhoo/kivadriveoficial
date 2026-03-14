@@ -372,6 +372,25 @@ padding:30px;
 margin-top:60px;
 }
 
+.btn-breve{
+background:#ccc;
+color:#333;
+border:none;
+padding:15px 25px;
+font-size:18px;
+border-radius:10px;
+cursor:pointer;
+}
+
+.tag-breve{
+background:#ff2ea6;
+color:white;
+font-size:12px;
+padding:4px 8px;
+border-radius:6px;
+margin-left:10px;
+}
+
 /* BOTÃO WHATSAPP */
 
 .whatsapp-button{

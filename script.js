@@ -10,7 +10,6 @@ window.baixarMotorista = function () {
     window.location.href = "https://dl.dropboxusercontent.com/scl/fi/5yrjzr01wg9l4nuv55imh/Kiva-Motorista.apk?rlkey=ffa99o36a8v4k1bmz8qpl3jap"
 };
 
-https://www.dropbox.com/scl/fi/5yrjzr01wg9l4nuv55imh/Kiva-Motorista.apk?rlkey=ffa99o36a8v4k1bmz8qpl3jap&st=cyn0s1zg&dl=0
 
 
 /* ANIMAÇÃO AO ROLAR */

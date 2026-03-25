@@ -104,6 +104,18 @@ flex-wrap:wrap;
 margin-bottom:40px;
 }
 
+.hero-buttons {
+  display: flex;
+  flex-direction: column; /* deixa um em cima do outro */
+  align-items: center; /* centraliza */
+  gap: 15px; /* espaço entre eles */
+}
+
+.hero-buttons button {
+  width: 280px; /* tamanho padrão bonito */
+  max-width: 90%;
+}
+
 .hero-buttons button{
 padding:16px 28px;
 border:none;

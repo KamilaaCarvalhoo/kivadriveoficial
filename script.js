@@ -3,11 +3,11 @@ document.addEventListener("DOMContentLoaded", function () {
 /* BOTÕES DE DOWNLOAD */
 
 window.baixarPassageira = function () {
-    alert("🚧 O aplicativo para passageiras será liberado em breve!");
+    window.location.href = "https://dl.dropboxusercontent.com/scl/fi/jmn7hi8md9r5ge0aj1whm/Kiva-Drive.apk?rlkey=sczaee06m93le3ca8gl1lm0i3"
 };
 
 window.baixarMotorista = function () {
-    window.location.href = "https://dl.dropboxusercontent.com/scl/fi/5yrjzr01wg9l4nuv55imh/Kiva-Motorista.apk?rlkey=ffa99o36a8v4k1bmz8qpl3jap"
+    window.location.href = "https://dl.dropboxusercontent.com/scl/fi/71u6a0fn02fkwgte9cvz3/Kiva-Motorista.apk?rlkey=rq6um83e8hn6jbv29i8i5z5rt"
 };
 
 

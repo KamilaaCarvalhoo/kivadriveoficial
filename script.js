@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (userAgent.includes("android")) {
     setTimeout(() => {
       window.location.href =
-        "https://play.google.com/store/apps/details?id=com.kivadrive.passageira";
+        "https://play.google.com/store/apps/details?id=com.kivamotorista.kivaapp";
     }, 1500);
   }
 

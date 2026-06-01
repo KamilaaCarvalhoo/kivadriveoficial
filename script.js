@@ -1,4 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
+  /* REDIRECIONAMENTO AUTOMÁTICO */
+
+  const userAgent = navigator.userAgent.toLowerCase();
+
+  if (userAgent.includes("android")) {
+    setTimeout(() => {
+      window.location.href =
+        "https://play.google.com/store/apps/details?id=com.kivadrive.passageira";
+    }, 1500);
+  }
+
   /* BOTÕES DE DOWNLOAD */
 
   window.baixarPassageira = function () {
@@ -27,30 +38,34 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  reveal();
+
   window.addEventListener("scroll", reveal);
+
+  /* MAPA */
 
   const mapElement = document.getElementById("map");
 
   if (mapElement) {
-    var map = L.map("map").setView([-16.6864, -49.2643], 12);
+    const map = L.map("map").setView([-16.6864, -49.2643], 12);
 
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution: "© OpenStreetMap",
     }).addTo(map);
 
-    setTimeout(function () {
+    setTimeout(() => {
       map.invalidateSize();
     }, 200);
 
-    var carIcon = L.icon({
+    const carIcon = L.icon({
       iconUrl: "https://cdn-icons-png.flaticon.com/512/744/744465.png",
       iconSize: [40, 40],
       iconAnchor: [20, 20],
     });
 
-    var car = L.marker([-16.6864, -49.2643], { icon: carIcon }).addTo(map);
+    const car = L.marker([-16.6864, -49.2643], { icon: carIcon }).addTo(map);
 
-    var route = [
+    const route = [
       [-16.6864, -49.2643],
       [-16.69, -49.27],
       [-16.695, -49.26],
@@ -58,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
       [-16.705, -49.25],
     ];
 
-    var i = 0;
+    let i = 0;
 
     function moveCar() {
       car.setLatLng(route[i]);

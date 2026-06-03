@@ -3,12 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const userAgent = navigator.userAgent.toLowerCase();
 
-  if (userAgent.includes("android")) {
-    setTimeout(() => {
-      window.location.href =
-        "https://play.google.com/store/apps/details?id=com.kivamotorista.kivaapp";
-    }, 1500);
-  }
 
   /* BOTÕES DE DOWNLOAD */
 
